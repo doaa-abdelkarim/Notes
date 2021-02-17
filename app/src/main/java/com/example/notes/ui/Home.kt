@@ -1,4 +1,4 @@
-package com.example.a8notes.ui
+package com.example.notes.ui
 
 import android.app.DatePickerDialog
 import android.content.Intent
@@ -13,13 +13,13 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.ItemTouchHelper.SimpleCallback
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.a8notes.R
-import com.example.a8notes.adapter.NoteAdapter
-import com.example.a8notes.db.NoteRepository
-import com.example.a8notes.model.Note
-import com.example.a8notes.util.EXTRA_NOTE
-import com.example.a8notes.util.closeKeyboard
-import com.example.a8notes.util.formatDate
+import com.example.notes.R
+import com.example.notes.adapter.NoteAdapter
+import com.example.notes.db.NoteRepository
+import com.example.notes.model.Note
+import com.example.notes.util.EXTRA_NOTE
+import com.example.notes.util.closeKeyboard
+import com.example.notes.util.formatDate
 import kotlinx.android.synthetic.main.home.*
 import kotlinx.android.synthetic.main.home.spinner_priority
 import java.util.*

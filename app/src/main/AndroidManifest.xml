@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.a8notes">
+    package="com.example.notes">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.AddEditNote" android:theme="@style/Base.Theme.AppCompat.Light.Dialog.AddEditNoteTheme"/>
-        <activity android:name=".ui.Notes">
+        <activity android:name="com.example.notes.ui.AddEditNote" android:theme="@style/Base.Theme.AppCompat.Light.Dialog.AddEditNoteTheme"/>
+        <activity android:name="com.example.notes.ui.Notes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

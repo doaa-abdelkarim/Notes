@@ -1,12 +1,12 @@
-package com.example.a8notes.adapter
+package com.example.notes.adapter
 
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.a8notes.R
-import com.example.a8notes.model.Note
+import com.example.notes.R
+import com.example.notes.model.Note
 import kotlinx.android.synthetic.main.notes_list_item.view.*
 
 class NoteAdapter (var notes:List<Note>?) : RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {

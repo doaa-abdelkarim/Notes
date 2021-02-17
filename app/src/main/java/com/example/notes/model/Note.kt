@@ -1,4 +1,4 @@
-package com.example.a8notes.model
+package com.example.notes.model
 
 import android.os.Parcel
 import android.os.Parcelable

@@ -1,4 +1,4 @@
-package com.example.a8notes.util
+package com.example.notes.util
 
 import android.app.Activity
 import android.content.Context

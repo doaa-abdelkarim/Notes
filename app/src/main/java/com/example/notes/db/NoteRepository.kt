@@ -1,8 +1,8 @@
-package com.example.a8notes.db
+package com.example.notes.db
 
 import android.content.Context
 import android.os.AsyncTask
-import com.example.a8notes.model.Note
+import com.example.notes.model.Note
 
 private lateinit var notes: List<Note>
 

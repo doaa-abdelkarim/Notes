@@ -1,4 +1,4 @@
-package com.example.a8notes.ui
+package com.example.notes.ui
 
 import android.app.Activity
 import android.app.DatePickerDialog
@@ -12,11 +12,11 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
-import com.example.a8notes.R
-import com.example.a8notes.model.Note
-import com.example.a8notes.util.EXTRA_NOTE
-import com.example.a8notes.util.closeKeyboard
-import com.example.a8notes.util.formatDate
+import com.example.notes.R
+import com.example.notes.model.Note
+import com.example.notes.util.EXTRA_NOTE
+import com.example.notes.util.closeKeyboard
+import com.example.notes.util.formatDate
 import kotlinx.android.synthetic.main.add_edit_note.*
 import java.util.*
 
