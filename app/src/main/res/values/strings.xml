@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="created">Dead line: </string>
+
+    <string-array name="priorities">
+        <item>Normal</item>
+        <item>High</item>
+        <item>Low</item>
+    </string-array>
+</resources>

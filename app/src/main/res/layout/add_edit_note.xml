@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.AddEditNote"
+    android:background="@drawable/edit_background"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <View
+        android:id="@+id/view_priority"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/edit_text_title"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:selectAllOnFocus="true"
+        android:textColor="@color/text_color"
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/view_priority"
+        android:hint="Title" />
+
+    <EditText
+        android:textColor="@color/text_color"
+        android:textStyle="italic"
+        android:id="@+id/edit_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_title"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/view_priority"
+        tools:text="Created: "
+        android:focusable="false"/>
+
+    <Spinner
+        android:theme="@style/Spinner"
+        android:popupBackground="#1E1E1E"
+        android:layout_marginStart="8dp"
+        android:id="@+id/spinner_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_date"
+        android:layout_marginTop="24dp"
+        android:entries="@array/priorities" />
+
+    <ImageView
+        android:id="@+id/image_view_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/spinner_priority"
+        android:layout_alignBottom="@id/spinner_priority"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_edit" />
+
+    <!--
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Description" />
+        -->
+
+    <!--
+    <DatePicker
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_picker"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+    -->
+
+    <!--
+    <EditText
+        android:id="@+id/edit_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:focusable="false"
+        android:hint="Date" />
+-->
+</RelativeLayout>
